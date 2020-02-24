@@ -15,7 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-		// Override point for customization after application launch.
+		
+		print("Setting a NavController...")
+//		let navController = UINavigationController()
+//		var navigationController = UINavigationController(rootViewController: nameOfVC));
+
+		/*
+		let splitViewController = window!.rootViewController as! UISplitViewController
+		let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
+		navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+		*/
+		
 		return true
 	}
 
